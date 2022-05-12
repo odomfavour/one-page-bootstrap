@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-hero-section{
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8) ), url(../img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* .top-hero-section::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+.text-primary {
+    color: #124265 !important;
+}
+
+.btn-primary {
+    background-color: #124265 !important; 
+}  
+
+#count-section {
+    background: #f8fbfe;
+}
+
+#count-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#client-section img {
+    max-width: 45%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+}
+
+#client-section img:hover {
+    filter: grayscale(0);
+    transform: scale(1.15);
+}
+
+.testimony-person img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
